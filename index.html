@@ -2,81 +2,124 @@
 <html lang="en">
 
 <head>
-    <!-- Important Meta tags -->
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 
-    <!-- Title of Page -->
-    <title> Ranaji Paralysis & Arthritis Hospital </title>
+    <!-- Bootstrap CDN Link-->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap-grid.min.css">
 
-    <!-- Fav Icon-->
-    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
+    <!-- Font Awesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
-    <!-- Style Scripts-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <!-- Own CSS Link -->
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 
 <body>
+
+    <!-- Header Section Starts Here-->
     <header>
         <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <a class="navbar-brand logo" href="index.html">Ranaji Hospital</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-lg-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Facilities</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
-                        </li>
-                    </ul>
-                </div>
+            <!-- Logo  -->
+            <a href="#" class="logo">
+                <span>r</span>anaji
+                <span>h</span>ospital
+            </a>
+
+            <nav class="nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#facilities">Facilities</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
             </nav>
+
+            <div class="fas fa-bars"></div>
 
         </div>
     </header>
-    <section class="banner">
+    <!-- Header Section Ends Here -->
+
+
+    <!-- Home Section Starts Here -->
+    <section class="home" id="home">
+
         <div class="container">
-            <di class="row">
-                <div class="col-sm-6">
-                    <h2>Dr. Alok Maher</h2>
-                    <p>
-                        Approximately half of doctors work in a hospital setting, either as a surgeon or as a
-                        specialized doctor. There are many medical specialties to choose from — at least thirty —
-                        and within these specialties, there are many sub-specialties. Please see below under What
-                        Are a Few Medical Specialties One Can Consider? for more details. For example, a medical
-                        student can choose to become a neurosurgeon and then within this become a sub-specialist in
-                        pediatric neurosurgery.
-                    </p>
-                    <a href="#" class="btnRead">Read More</a>
+
+            <div class="row min-vh-100 align-items-center text-center text-md-left">
+
+                <div class="col-md-6 pr-md-5">
+                    <img src="images/home-image.svg" alt="Home image">
                 </div>
+
+                <div class="col-md-6 pl-md-5 content">
+                    <h1><span>stay</span> safe, <span>stay</span> healthy. </h1>
+                    <h3>we care for you</h3>
+                    <a href="#"><button class="button">learn more</button></a>
+                </div>
+
+            </div>
+
         </div>
-        </div>
+
     </section>
+    <!-- Home Section Ends Here -->
+
+
+    <!-- About Section Starts Here -->
+    <section class="about" id="about">
+
+        <div class="container">
+            <div class="row min-vh-100 align-items-center">
+                <div class="col-md-6 content">
+
+                    <div class="box">
+                        <h3> <i class="fas fa-hospital"></i> </h3>
+                        <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to
+                            demonstrate the visual form of a document or a typeface without relying on meaningful
+                            content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
+                    </div>
+
+                    <div class="box">
+                        <h3> <i class="fas fa-procedures"></i> </h3>
+                        <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to
+                            demonstrate the visual form of a document or a typeface without relying on meaningful
+                            content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
+                    </div>
+
+                    <div class="box">
+                        <h3> <i class="fas fa-stethoscope"></i> </h3>
+                        <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to
+                            demonstrate the visual form of a document or a typeface without relying on meaningful
+                            content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
+                    </div>
+
+                </div>
+
+                <div class="col-md-6">
+                    <img src="images/about-us.svg" width="100%" alt="About Us">
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- About Section Ends Here -->
+
+    <!-- JQuery CDN Link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Own Js Link -->
+    <script src="js/main.js"></script>
+
 </body>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
 
 </html>
